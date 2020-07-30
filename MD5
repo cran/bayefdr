@@ -1,0 +1,15 @@
+1b13a0e2c63a51b785ca3b47adc35dd3 *DESCRIPTION
+b7c0e5744332bbffcc0c7699f96642d4 *NAMESPACE
+4791d36628b38cf216a25ea798a4f8f0 *R/bayefdr-package.R
+4c4f1d2cab886086c8186efbbee25793 *R/bayefdr.R
+df80d15f06f5e478fae835b108cfe0a4 *README.md
+696106adcdaf15aa769f37303ea9d48e *man/bayefdr-package.Rd
+ab83d55fa4ffb67a137c7c3ced634a12 *man/efdr-efnr.Rd
+51595ed1fdd9914eacc49ad51b4f89a0 *man/efdr_search.Rd
+be16a02f305486849d7f0af68562b530 *man/figures/README-example-1.png
+4d136eb18d6bc23b9508f4d6da8c294e *man/figures/README-outputs-1.png
+de4d6745810fd270abdd3924573aceb6 *man/optimal.Rd
+e663fd7ea7fa2de934ac4d66e3fea84d *man/plot.bayefdr.Rd
+80a56ad4765ffe02eb1afaafe9bc46bd *man/utils.Rd
+6c3d58cce769bafd586b65407395bbc6 *tests/testthat.R
+e96dd13f5d859435b446294ae7dac565 *tests/testthat/test-bayefdr.R
