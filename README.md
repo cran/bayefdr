@@ -7,6 +7,9 @@ bayefdr
 
 [![R build
 status](https://github.com/VallejosGroup/bayefdr/workflows/R-CMD-check/badge.svg)](https://github.com/VallejosGroup/bayefdr/actions)
+[![CRAN
+status](https://www.r-pkg.org/badges/version/bayefdr)](https://CRAN.R-project.org/package=bayefdr)
+[![downloads](http://cranlogs.r-pkg.org/badges/grand-total/bayefdr)](https://CRAN.R-project.org/package=bayefdr)
 <!-- badges: end -->
 
 The goal of bayefdr is to provide tools for the estimation and
@@ -20,7 +23,8 @@ You can install the released version of bayefdr from
 [CRAN](https://CRAN.R-project.org) with:
 
     install.packages("bayefdr")
-    devtools::install_github("bayefdr")
+    # development version:
+    ## devtools::install_github("VallejosGroup/bayefdr")
 
 Usage
 -----
@@ -33,6 +37,7 @@ possible. The basic input to this function is a vector of probabilities
 and a target EFDR.
 
     library("bayefdr")
+    set.seed(42)
     probs <- runif(100)
     efdr(0.7, probs)
     #> [1] 0.1429126
